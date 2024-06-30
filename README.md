@@ -14,24 +14,24 @@ YouTube Video: https://www.youtube.com/watch?v=9ITD1GBBz24
 
 The structure of this repo is the default structure of Unity games. The Assets folder notably contains Images, Materials, Scenes, and SteamVR plugin support.
 
-##System requirements:
-Unity Engine 2019 and up
-HTC VIVE Pro with 4 Lighthouse base stations (4 corners of a 4.5m^2)
-HTC VIVE Wireless kit (available PCI slot on VR computer needed)
-Recommended VIVE Pro Computer Specs: https://www.vive.com/us/support/vive-pro/category_howto/what-are-the-system-requirements.html
+## System requirements:
+- Unity Engine 2019 and up
+- HTC VIVE Pro with 4 Lighthouse base stations (4 corners of a 4.5m^2)
+- HTC VIVE Wireless kit (available PCI slot on VR computer needed)
+- Recommended VIVE Pro Computer Specs: https://www.vive.com/us/support/vive-pro/category_howto/what-are-the-system-requirements.html
 
 ##### Experimental Computer Used:
-Dell Precision 3630, Windows
-Nvidia Quadro P400
-Intel i7-8700 CPU @ 3.2GHz
-32GB RAM
+- Dell Precision 3630, Windows
+- Nvidia Quadro P400
+- Intel i7-8700 CPU @ 3.2GHz
+- 32GB RAM
 
 ## Running Experiments
 Once downloading and installing the appropriate Unity version, you will need to install the appropriate plugins from the Unity Store. We note that all plugins/assets used are free for this experimental setup. Follow a tutorial such as this [one]( https://youtu.be/iJ0oNYIUFJo) to get set up.
 
 Trials are mostly autonomous. Using the Unity Play button you may track both what an individual sees in the game view and a 3d person view of the field. This is how videos were made of the game (by screen recording with OBS studio).
 
-Open the Game.Unity file under scenes. Solve any errors that may pop up on your system. The MainMenu game object is a blank object that contains the MainMenu.cs script which houses an array of public variables which other scripts call.
+Open the Game.Unity file under Assets -> Scenes. Solve any errors that may pop up on your system. The MainMenu game object is a blank object that contains the MainMenu.cs script which houses an array of public variables which other scripts call.
 
 There are also other useful variables being tracked in MainMenu such as the current failure rate, trial time, time till next obstacle set activation.
 
